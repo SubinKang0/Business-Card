@@ -1,0 +1,19 @@
+@import "tailwindcss";
+
+@theme inline {
+  --color-jocoding-purple: #6d319d;
+  --color-jocoding-yellow: #fbb03b;
+  --color-demodev-blue: #3026b3;
+  --color-card-text: #18181b;
+  --font-sans: "Pretendard", sans-serif;
+}
+
+body {
+  background: #f5f5f5;
+  color: #18181b;
+  font-family: "Pretendard", sans-serif;
+}
+
+input::placeholder {
+  color: #D4D4D8;
+}
